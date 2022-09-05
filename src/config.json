@@ -1,0 +1,21 @@
+{
+    "Auth": {
+        "discord-token": "",
+        "guild-id": "",
+        "client-id": "",
+        "genius-key": ""
+    },
+    "Customize": {
+        "embed-color": "#000000",
+        "embed-footer": "© PvPLab • https://pvplab.net",
+        "embed-footer-short": "© PvPLab"
+    },
+    "db": {
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": "1234",
+        "database": "users",
+        "boost-role": "946990196593946644"
+    }
+}
