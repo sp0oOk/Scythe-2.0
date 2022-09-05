@@ -12,8 +12,6 @@ Simply run `npm i` in a terminal in the parent directory of the plugin to ensure
 ```bash
 npm i
 ```
-
-Furthermore, ensure that you have Typescript installed globally via the node package manager as-well. It is implied you also have Visual Studio Code resources to interprete / handle syntax highlighting of the language.
 ## Command Registration
 
 ```js
@@ -44,11 +42,6 @@ export const _CommandExample_: PCommand = {
      // Rest of command execution here
     }
 }
-
-/**
-After command is completed append to the PCommandList an exported
-array of typedef PCommand to ensure command is binded to the client
-**/
 
 ```
 
